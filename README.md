@@ -15,7 +15,7 @@ Prefixer for Myanmar National Registration Card's Format
 Prefer formats
 - `10/OUKAMA(N)123456`
 - `10/OUKAMA(NAING)123456`
-- `၁၀/လမန(နိုင်)၁၂၃၄၅၆`
+- `၁၀/လမန((ႏိုင္)၁၂၃၄၅၆`
 
 *NOTE*
 
