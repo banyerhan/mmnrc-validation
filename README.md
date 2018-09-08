@@ -29,7 +29,7 @@ So you should be use six english characters for district.
 var nrc = MMNRC("10/LaMaNa (NAING) 123456");
 
 nrc.getFormat() // 10/LAMANA(N)123456
-nrc.getFormat("mm") // ၁၀/လမန(နိုင်)၁၂၃၄၅၆
+nrc.getFormat("mm") // ၁၀/လမန(ႏိုင္)၁၂၃၄၅၆
 ```
 
 ### Test Equal
@@ -37,7 +37,7 @@ nrc.getFormat("mm") // ၁၀/လမန(နိုင်)၁၂၃၄၅၆
 ```js
 var nrc = MMNRC("10/LAMANA (N) 123456");
 
-nrc.isEqual('၁၀/လမန(နိုင်)၁၂၃၄၅၆') // return true;
+nrc.isEqual('၁၀/လမန((ႏိုင္)၁၂၃၄၅၆') // return true;
 ```
 
 ### Get State name from nrc card
